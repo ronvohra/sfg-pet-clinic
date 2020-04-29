@@ -1,4 +1,4 @@
-package io.github.ronvohra.sfgpetclinic.domain;
+package io.github.ronvohra.sfgpetclinic.model;
 
 public class PetType {
     private String name;
