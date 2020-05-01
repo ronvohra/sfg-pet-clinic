@@ -14,7 +14,7 @@
     </parent>
     <groupId>io.github.ronvohra</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>Pet Clinic Spring Boot 2</description>
 
@@ -40,6 +40,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:ronvohra/sfg-pet-clinic.git</developerConnection>
-      <tag>sfg-pet-clinic-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 </project>
