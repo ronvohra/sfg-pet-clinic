@@ -1,11 +1,11 @@
 package io.github.ronvohra.sfgpetclinic.services.map;
 
 import io.github.ronvohra.sfgpetclinic.model.Vet;
-import io.github.ronvohra.sfgpetclinic.services.CrudService;
+import io.github.ronvohra.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();

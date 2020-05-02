@@ -1,12 +1,11 @@
 package io.github.ronvohra.sfgpetclinic.services.map;
 
-import com.sun.xml.bind.v2.model.core.ID;
 import io.github.ronvohra.sfgpetclinic.model.Owner;
-import io.github.ronvohra.sfgpetclinic.services.CrudService;
+import io.github.ronvohra.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
         return super.findAll();
@@ -30,5 +29,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
