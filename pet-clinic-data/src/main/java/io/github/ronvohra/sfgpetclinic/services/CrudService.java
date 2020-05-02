@@ -3,7 +3,7 @@ package io.github.ronvohra.sfgpetclinic.services;
 import java.util.Set;
 
 public interface CrudService<T, ID> {
-    Set<T> findall();
+    Set<T> findAll();
 
     T findById(ID id);
 
